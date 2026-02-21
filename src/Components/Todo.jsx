@@ -21,6 +21,9 @@ const Todo = () => {
     dispatch(editTodo({ id, text: editText }));
     setEditId(null);
     setEditText("");
+
+
+    
   };
 
   return (
